@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>M旗舰店配置</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.SuperSlide.2.1.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!--复用 面包屑-->
+        <div class="list_h">
+            <span>旗舰店设置</span>><span class="on">LOGO&监测</span>
+            <div class="pos">当前旗舰店:BMW悦购体验馆</div>
+        </div>
+        <!--选项卡-->
+        <ul class="nav">
+            <li>基本信息</li>
+            <li>LOGO&监测</li>
+            <li>外显管理</li>
+            <li class="cur">M旗舰店配置</li>
+            <li>旗舰店列表页属性</li>
+        </ul>
+        <!--选项卡的内容-->
+
+        <div class="tab">
+            <!--M旗舰店配置-->
+            <div class="logo_div">
+                <div class="ziduan">
+                    <div class="ziduan_l fl">
+                        <dl>
+                            <dt>旗舰店关联字段</dt>
+                            <dd><input type="text" name="" class="input_text"></dd>
+                        </dl>
+                        <dl>
+                            <dt>发布状态</dt>
+                            <dd><input type="text" name="" class="input_text"></dd>
+                        </dl>
+                        <dl>
+                            <dt>上传经销商</dt>
+                            <dd class="dealer">
+                                <span>下载经销商模板</span>
+                                <span>   
+
+<input type="button" value="上传文件" onclick="path.click()" id="add_img" >  
+<input type="file" id="path" style="display:none" onchange="upfile.value=this.value">
+</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>选着模板样式</dt>
+                            <dd class="btn_add">
+                                <span><input type="text" class="input_text"></span>
+                                <span class="on">添加</span><span>预览</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ziduan_r">
+                        <dl>
+                            <dt>顶部背景图</dt>
+                            <dd><img src="images/images_img2.jpg" alt=""></dd>
+                            <dd>
+                                <p><input type="button" value="上传文件" onclick="paths.click()" id="add_imgs">
+                                    <input type="file" id="paths" style="display:none" onchange="upfile.value=this.value"></p>
+                                <p>删除照片</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="brand_Story">
+                    <dl>
+                        <dt>品牌故事</dt>
+                        <dd>
+                            <!--这里是编辑器-->
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd class="save"><input type="button" value="保存"></dd>
+                    </dl>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>
